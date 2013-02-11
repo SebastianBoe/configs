@@ -22,3 +22,7 @@
 (global-set-key (kbd "M-3") 'split-window-horizontally)
 
 (global-set-key (kbd "M-2") 'split-window-vertically)
+
+;; Endre kill line til å ta hele linja
+
+(global-set-key (kbd "C-k") 'kill-whole-line)

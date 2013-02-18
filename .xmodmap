@@ -8,3 +8,16 @@ keysym Caps_Lock = Control_L
 !add Lock = Caps_Lock
 add Control = Control_L
 
+
+
+
+! make AltGr + z and AltGr + x correspond to
+! less and greater respectively
+
+!previously
+!keycode  52 = z Z z Z guillemotleft less guillemotleft
+!keycode  53 = x X x X guillemotright greater guillemotright
+
+
+keycode 52 = z Z z Z less less less
+keycode 53 = x X x X greater greater greater

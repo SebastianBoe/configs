@@ -114,3 +114,6 @@ alias sshvirtual='ssh ubuntu@129.241.106.211'
 export JAVA_HOME="/usr/lib64/jvm/jdk1.7.0_15/"
 
 alias pdf='evince &>/dev/null'
+
+export VISUAL="emacs -nw"
+export EDITOR="emacs -nw"

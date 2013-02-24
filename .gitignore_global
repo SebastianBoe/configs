@@ -1,0 +1,14 @@
+# Compiled source #
+###################
+*.class
+*.o
+
+# Logs and databases #
+######################
+*.log
+
+# Text editor backup files #
+############################
+
+*~
+[#]*[#]

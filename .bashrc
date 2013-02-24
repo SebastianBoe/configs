@@ -110,3 +110,7 @@ alias cl='clear && ls'
 alias scan='scanimage -d genesys:libusb:001:005 > scanned_document.pnm'
 alias browse='google-chrome &>/dev/null &'
 alias sshvirtual='ssh ubuntu@129.241.106.211'
+
+export JAVA_HOME="/usr/lib64/jvm/jdk1.7.0_15/"
+
+alias pdf='evince &>/dev/null'

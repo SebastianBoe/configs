@@ -6,7 +6,6 @@
 [credential]
 	helper = cache --timeout=3600
 [core]
-	editor = emacs
 	excludesfile = /home/boe/.gitignore_global
 [merge]
 	tool = meld

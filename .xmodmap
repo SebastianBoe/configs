@@ -37,12 +37,12 @@ keycode 53 = x X x X greater greater greater
 !keycode  40 = d D d D eth ETH eth ETH d D eth ETH
 
 !new
-keycode  24 = q Q q Q KP_Prior KP_Prior KP_Prior KP_Prior q Q KP_Prior KP_Prior
-keycode  25 = w W w W KP_Up KP_Up KP_Up KP_Up w W KP_Up KP_Up
-keycode  26 = e E e E KP_Next KP_Next KP_Next KP_Next e E KP_Next KP_Next
-keycode  38 = a A a A KP_Left KP_Left KP_Left KP_Left a A KP_Left KP_Left
-keycode  39 = s S s S KP_Down KP_Down KP_Down KP_Down s S KP_Down KP_Down
-keycode  40 = d D d D KP_Right KP_Right KP_Right KP_Right d D KP_Right KP_Right
+keycode  24 = q Q q Q Prior Prior Prior Prior q Q Prior Prior
+keycode  25 = w W w W Up Up Up Up w W Up Up
+keycode  26 = e E e E Next Next Next Next e E Next Next
+keycode  38 = a A a A Left Left Left Left a A Left Left
+keycode  39 = s S s S Down Down Down Down s S Down Down
+keycode  40 = d D d D Right Right Right Right d D Right Right
 
 !Get a context menu key
 !

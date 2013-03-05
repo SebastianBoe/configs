@@ -45,4 +45,8 @@ keycode  39 = s S s S Down Down Down Down s S Down Down
 keycode  40 = d D d D Right Right Right Right d D Right Right
 
 !Get a context menu key
-!
+!prev
+!keycode  60 = period colon period colon ellipsis periodcentered ellipsis periodcentered period colon ellipsis periodcentered
+
+!new
+keycode 60 = period colon period colon Menu periodcentered Menu periodcentered period colon Menu periodcentered

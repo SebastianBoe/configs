@@ -1,8 +1,6 @@
 [user]
 	name = Boe
 	email = sebastianbooe@gmail.com
-[credentiial]
-	helper = cache
 [credential]
 	helper = cache --timeout=3600
 [core]

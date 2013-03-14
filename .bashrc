@@ -119,3 +119,5 @@ export VISUAL="emacs -nw"
 export EDITOR="emacs -nw"
 
 alias dmesg='dmesg --show-delta --ctime'
+
+alias fixkeyboard='xmodmap ~/.xmodmap'

@@ -1,3 +1,9 @@
+(add-to-list 'load-path "~/.emacs.d/")
+
+(autoload 'lua-mode "lua-mode" "Lua editing mode." t)
+(add-to-list 'auto-mode-alist '("\\.lua$" . lua-mode))
+(add-to-list 'interpreter-mode-alist '("lua" . lua-mode)) 
+
 ;; Maximum colors
 
 (setq font-lock-maximum-decoration t)
@@ -11,9 +17,6 @@
 (setq backup-by-copying t)
 
 (ido-mode t)
-
-(require 'pymacs)
-(pymacs-load "ropemacs" "rope-")
 
 ;; Benjamins anbefalinger!
 

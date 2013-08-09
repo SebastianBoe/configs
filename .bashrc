@@ -120,3 +120,5 @@ alias dmesg='dmesg --show-delta --ctime'
 
 alias fixkeyboard='xmodmap ~/.xmodmap'
 alias fucking='sudo'
+alias please='sudo'
+alias ap='aptitude'

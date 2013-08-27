@@ -100,6 +100,8 @@ fi
 PS1='\$ '
 
 alias sshhjem='ssh fnc@84.202.69.130'
+alias sshthor='ssh boe@129.241.103.252'
+
 alias emacs='emacs -nw'
 alias play='vlc ~/Dropbox/music/* 2> /dev/null &'
 

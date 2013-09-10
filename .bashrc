@@ -131,3 +131,5 @@ export ARCHC_ROOT=/home/boe/SHMAC/shmac/simulator/external/archc-2.1-shmacsim
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SYSTEMC_ROOT/lib-linux64
  
 export PATH=$PATH:$SHMACSIM_ROOT/build/shmacsim:$SHMACSIM_ROOT/tools
+alias whats='aptitude show'
+export PATH=$PATH:/home/boe/rafael/compiladores/bin

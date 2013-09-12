@@ -29,3 +29,10 @@
 ;; Endre kill line til å ta hele linja
 
 (global-set-key (kbd "C-k") 'kill-whole-line)
+
+;; Assosiere .ac med C-mode.
+
+(add-to-list 'auto-mode-alist '("\\.ac$" . c-mode))
+
+(setq-default indent-tabs-mode t)
+(setq tab-width 8)

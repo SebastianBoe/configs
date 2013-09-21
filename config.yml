@@ -1,0 +1,10 @@
+tasks:
+  test task:
+    cookies: ~/.flexget/cookies.sqlite
+    rss: http://www.iptorrents.com/torrents/rss?download;l5;u=1163905;tp=6583f4a6c102f5eadff7b85cb83c335e
+    series:
+      - Breaking Bad
+      - The Big Bang Theory
+      - Dexter:
+          quality: 1080p
+    download: /flexget/torrents/

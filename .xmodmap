@@ -12,21 +12,7 @@ keysym Caps_Lock = Control_L
 add Control = Control_L
 
 
-
-
-! make AltGr + z and AltGr + x correspond to
-! less and greater respectively
-
-!previously
-!keycode  52 = z Z z Z guillemotleft less guillemotleft
-!keycode  53 = x X x X guillemotright greater guillemotright
-
-
-keycode 52 = z Z z Z less less less
-keycode 53 = x X x X greater greater greater
-
-
-!Create directional keys.
+!Create directional keys and page up page down. close to home row
 !
 !previously
 !keycode  24 = q Q q Q at Greek_OMEGA at Greek_OMEGA q Q at Greek_OMEGA
@@ -44,9 +30,31 @@ keycode  38 = a A a A Left Left Left Left a A Left Left
 keycode  39 = s S s S Down Down Down Down s S Down Down
 keycode  40 = d D d D Right Right Right Right d D Right Right
 
-!Get a context menu key
+!Get a context menu key for keyboards (hhkb) that don't have one.
 !prev
 !keycode  60 = period colon period colon ellipsis periodcentered ellipsis periodcentered period colon ellipsis periodcentered
 
 !new
 keycode 60 = period colon period colon Menu periodcentered Menu periodcentered period colon Menu periodcentered
+
+! Move parentheses symbols closer to home row.
+! () {} [] are mapped to respectively
+! m, jk ui with the modifier key AltGr (plus some other modifier keys probably, i dunno.
+! the important part is that we aren't overriding any symbols actually in use.
+
+!previously (for backup purposes)
+!
+!keycode  58 = m M m M mu masculine mu masculine m M mu masculine
+!keycode  59 = comma semicolon comma semicolon dead_cedilla dead_ogonek dead_cedilla dead_ogonek comma semicolon dead_cedilla dead_ogonek
+!keycode  44 = j J j J dead_hook dead_horn dead_hook dead_horn j J dead_hook dead_horn
+!keycode  45 = k K k K kra ampersand kra ampersand k K kra ampersand
+!keycode  30 = u U u U downarrow uparrow downarrow uparrow u U downarrow uparrow
+!keycode  31 = i I i I rightarrow idotless rightarrow idotless i I rightarrow idotless
+
+!new
+keycode  58 = m M m M parenleft parenleft parenleft parenleft m M parenleft parenleft
+keycode  59 = comma semicolon comma semicolon parenright parenright parenright parenright comma semicolon parenright parenright
+keycode  44 = j J j J braceleft braceleft braceleft braceleft j J braceleft braceleft 
+keycode  45 = k K k K braceright braceright braceright braceright k K braceright braceright 
+keycode  30 = u U u U bracketleft bracketleft bracketleft bracketleft u U bracketleft bracketleft 
+keycode  31 = i I i I bracketright bracketright bracketright bracketright i I bracketright bracketright 

@@ -3,8 +3,21 @@ tasks:
     cookies: ~/.flexget/cookies.sqlite
     rss: http://www.iptorrents.com/torrents/rss?download;l5;u=1163905;tp=6583f4a6c102f5eadff7b85cb83c335e
     series:
-      - Breaking Bad
-      - The Big Bang Theory
-      - Dexter:
-          quality: 1080p
+      720p+:
+        - Breaking Bad
+        - The Big Bang Theory
+        - Suits
+        - Modern family
+        - The Shield
+        - David Attenboroughs Rise Of Animals
+        - South Park
+        - New Girl
+        - How I Met Your Mother
+        - Family Guy
+        - The Simpsons
+        - The Mentalist
+        - Two and a Half Men
+        - Elementary
+        - Game of Thrones
+        - Cosmos
     download: /flexget/torrents/

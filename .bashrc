@@ -101,6 +101,7 @@ PS1='\$ '
 
 alias sshhjem='ssh fnc@84.202.69.130'
 alias sshthor='ssh boe@129.241.103.252'
+alias sshshmac='ssh sebastbo@129.241.111.238'
 
 alias emacs='emacs -nw'
 alias play='vlc ~/Dropbox/music/* 2> /dev/null &'
@@ -133,3 +134,13 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SYSTEMC_ROOT/lib-linux64
 export PATH=$PATH:$SHMACSIM_ROOT/build/shmacsim:$SHMACSIM_ROOT/tools
 alias whats='aptitude show'
 export PATH=$PATH:/home/boe/rafael/compiladores/bin
+export PATH=$PATH:/home/boe/arm_site/bin
+
+export NUM_LOGICAL_CORES=`grep -c '^processor' /proc/cpuinfo`
+alias pmake='time nice make -j$NUM_LOGICAL_CORES --load-average=$NUM_LOGICAL_CORES'
+
+export SHMACIP=129.241.111.238
+source ~/SHMAC/shmac/pipeline/setup-environment.sh
+
+export COMPILER_PATH=/home/boe/SHMAC/sync/compiler
+export sp=/home/boe/SHMAC/shmac/pipeline

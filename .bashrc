@@ -144,3 +144,5 @@ source ~/SHMAC/shmac/pipeline/setup-environment.sh
 
 export COMPILER_PATH=/home/boe/SHMAC/sync/compiler
 export sp=/home/boe/SHMAC/shmac/pipeline
+
+export JAVA_HOME=/usr/lib/jvm/default-java

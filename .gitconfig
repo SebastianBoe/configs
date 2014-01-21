@@ -6,4 +6,4 @@
 [core]
 	excludesfile = /home/boe/.gitignore_global
 [merge]
-	tool = meld
+	tool = kdiff

@@ -20,4 +20,8 @@ tasks:
         - Elementary
         - Game of Thrones
         - Cosmos
+        - Community
+        - Sherlock
+        - Archer
+        - True Detective
     download: /flexget/torrents/

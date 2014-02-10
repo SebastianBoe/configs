@@ -140,9 +140,12 @@ export NUM_LOGICAL_CORES=`grep -c '^processor' /proc/cpuinfo`
 alias pmake='time nice make -j$NUM_LOGICAL_CORES --load-average=$NUM_LOGICAL_CORES'
 
 export SHMACIP=129.241.111.238
-source ~/SHMAC/shmac/pipeline/setup-environment.sh
 
 export COMPILER_PATH=/home/boe/SHMAC/sync/compiler
 export sp=/home/boe/SHMAC/shmac/pipeline
 
 export JAVA_HOME=/usr/lib/jvm/default-java
+
+export AMBER=$HOME/Dropbox/Mastern/shmac/hardware/units/amber/hw/vlog/amber25/
+
+source /opt/Xilinx/14.7/ISE_DS/settings64.sh &>/dev/null

@@ -97,55 +97,29 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
 
-PS1='\$ '
-
-alias sshhjem='ssh fnc@84.202.69.130'
-alias sshthor='ssh boe@129.241.103.252'
-alias sshshmac='ssh sebastbo@129.241.111.238'
+#PS1='\$ '
 
 alias emacs='emacs -nw'
-alias play='vlc ~/Dropbox/music/* 2> /dev/null &'
-
-alias haed='head'
-alias claer='clear'
-alias cl='clear && ls'
 
 alias scan='scanimage -d genesys:libusb:001:005 > scanned_document.pnm'
-alias browse='google-chrome &>/dev/null &'
-alias sshvirtual='ssh ubuntu@129.241.106.211'
 
 alias pdf='evince &>/dev/null'
 
-export VISUAL="emacs -nw"
-export EDITOR="emacs -nw"
+export VISUAL="emacs"
+export EDITOR="emacs"
 
 alias dmesg='dmesg --show-delta --ctime'
 
-alias fixkeyboard='xmodmap ~/.xmodmap'
+alias fixkeyboard='setxkbmap no && xmodmap ~/.xmodmap'
 alias fucking='sudo'
 alias please='sudo'
-alias ap='aptitude'
 
-export SHMACSIM_ROOT=/home/boe/SHMAC/shmac/simulator
-export SYSTEMC_ROOT=/home/boe/SHMAC/shmac/simulator/external/systemc-2.3.0
-export ARCHC_ROOT=/home/boe/SHMAC/shmac/simulator/external/archc-2.1-shmacsim
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$SYSTEMC_ROOT/lib-linux64
- 
-export PATH=$PATH:$SHMACSIM_ROOT/build/shmacsim:$SHMACSIM_ROOT/tools
-alias whats='aptitude show'
-export PATH=$PATH:/home/boe/rafael/compiladores/bin
-export PATH=$PATH:/home/boe/arm_site/bin
+#Pacman: Please make sure JAVA_HOME is set to /usr/lib/jvm/default
+export JAVA_HOME=/usr/lib/jvm/default
 
-export NUM_LOGICAL_CORES=`grep -c '^processor' /proc/cpuinfo`
-alias pmake='time nice make -j$NUM_LOGICAL_CORES --load-average=$NUM_LOGICAL_CORES'
-
-export SHMACIP=129.241.111.238
-
-export COMPILER_PATH=/home/boe/SHMAC/sync/compiler
-export sp=/home/boe/SHMAC/shmac/pipeline
-
-export JAVA_HOME=/usr/lib/jvm/default-java
-
-export AMBER=$HOME/Dropbox/Mastern/shmac/hardware/units/amber/hw/vlog/amber25/
+alias steam='STEAM_RUNTIME=0 steam'
+alias y=yaourt
 
 source /opt/Xilinx/14.7/ISE_DS/settings64.sh &>/dev/null
+
+alias cdturbo='cd ~/turborav/hw/core'
